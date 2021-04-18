@@ -8,6 +8,7 @@ import { generate as generateInterfaces } from "./generators/interfaces";
 import { generate as generateFields } from "./generators/componentFields";
 import { generate as generateDefine } from "./generators/ecsDefine";
 import { generate as generateEntities } from "./generators/entities";
+import { generate as generatePackage } from "./generators/packageJson";
 
 function generateCode(data: IECSSchema) {
   const src = `
@@ -50,14 +51,12 @@ export default async function (argv: IGeneratorArgs) {
     return;
   }
   // tslint:disable-next-line: no-console
-  console.log("-- Generating ------------------------")
-  console.log(data);
   const src = generateCode(data);
   const node_modules_path = findup("node_modules");
   let output_path = "";
 
   if ( node_modules_path ) {
-    output_path = path.join(node_modules_path, "@kryptonstudio", "ECSClient");
+    output_path = path.join(node_modules_path, "@kryptonstudio", "ecs-client");
     await fs.mkdir(output_path, {
       recursive: true
     });
@@ -71,9 +70,13 @@ export default async function (argv: IGeneratorArgs) {
       console.log(ex);
       await fs.mkdir(argv.o, { recursive: true });
     }
+  }
 
-    console.log(src);
-
-    fs.writeFile(path.join(output_path, 'index.ts'), src, {encoding: "utf-8"})
+  if ( src && output_path) {
+    console.log("Writing client...");
+    await fs.writeFile(path.join(output_path, 'index.ts'), src, { encoding: "utf-8" });
+    console.log("Writing @kryptonstudio/ecs-client package");
+    await fs.writeFile(path.join(output_path, 'package.json'), generatePackage(), { encoding: "utf-8" });
+    console.log("Client Generated.");
   }
 }

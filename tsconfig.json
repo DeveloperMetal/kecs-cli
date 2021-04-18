@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "module": "System",
-    "outFile": "./lib/cli.js",
+    "module": "CommonJS",
+    "outDir": "./lib/",
     "incremental": true,
     "target": "ES2015",
     "moduleResolution": "node",
@@ -26,6 +26,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true
   },
   "include": [

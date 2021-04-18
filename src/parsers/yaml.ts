@@ -1,7 +1,7 @@
 import path from "path";
 import glob from "glob";
 import yaml from "js-yaml";
-import fs from "fs";
+import fs from "fs/promises";
 import { IECSSchema, GeneratorInput, IComponentSchema, IEntitySchema } from "../schema/types";
 
 async function globPath(pattern: string): Promise<string[]> {
@@ -30,25 +30,27 @@ async function globSearch(searchPaths: string[], pattern: string): Promise<strin
 
 export async function parseYaml(yamlPath: string, data: IECSSchema, depth=0, openCache: { [name: string]: boolean }={}) {
   const prefix = "  ".repeat(depth);
-  console.log(prefix + "-------------------------------------------")
-  console.log(prefix + "-- Parsing: ", yamlPath);
-  const input = yaml.load(fs.readFileSync(yamlPath, 'utf8')) as GeneratorInput;
+  const input = yaml.load(await fs.readFile(yamlPath, 'utf8')) as GeneratorInput;
   const inputPathDir = path.resolve(path.dirname(yamlPath));
   const searchPaths = [inputPathDir]
 
   // load includes
   if ( "include" in input) {
-    console.log(prefix + "--------------", input);
     for (const include of input.include) {
       if (typeof include === "string") {
-        console.log(prefix + "--- include: ", include);
         const results = await globSearch(searchPaths, include);
         for(const result of results) {
           if ( result != yamlPath ) {
             const resultYamlPath = result.endsWith('.yml') ? result : path.join(result, 'index.yml');
+
+            try {
+              await fs.stat(resultYamlPath);
+            } catch (e) {
+              return;
+            }
+
             if ( Reflect.has(openCache, resultYamlPath) ) {
               // File already parsed, skip
-              console.log(prefix + "--- skip");
               return;
             } else {
               openCache[resultYamlPath] = true;
@@ -58,7 +60,6 @@ export async function parseYaml(yamlPath: string, data: IECSSchema, depth=0, ope
         }
       } else {
         try {
-          console.log(prefix + "--- module: ", include.module);
           const modulePath = require.resolve(include.module);
           if (modulePath) {
             const results = await globSearch([modulePath], include.import);

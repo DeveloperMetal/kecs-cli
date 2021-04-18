@@ -1,4 +1,4 @@
-import { IECSSchema } from "../../schema/types";
+import { IECSSchema } from "@kryptonstudio/ecs";
 import { reduce } from "../utils";
 
 export const generate = (data: IECSSchema) => reduce(data.components, (component) => `
