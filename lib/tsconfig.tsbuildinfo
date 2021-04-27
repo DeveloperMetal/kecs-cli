@@ -172,7 +172,7 @@
         "affectsGlobalScope": false
       },
       "../src/schema/types.ts": {
-        "version": "5778fc10c64cdbcfea9dd8c7cbdfa77b1d17d4c351f3c4c5979e15678994d8f6",
+        "version": "7c4681991d3bdbcfeefd382808d82d879f248c3630de54c087682a0cd2e25b91",
         "signature": "9c91b7c3cd3e341e2ebe3b0c091f9e25e13da35dc71e4f4ed32ea5537ae559e0",
         "affectsGlobalScope": false
       },
@@ -422,12 +422,12 @@
         "affectsGlobalScope": false
       },
       "../src/parsers/yaml.ts": {
-        "version": "50c7d494d92ac04d55e90f3fcc8c89efdafc5b5d74834d261e370e087e6c16a0",
+        "version": "986a891fa1a209b5f239de65a3fc82293c18fb34fcd116732d0f5d2f39fe3c43",
         "signature": "e1baca63499c58b6ec4df00be5205d649681d6ba818d7123cb021372369a1466",
         "affectsGlobalScope": false
       },
       "../src/generator/types.ts": {
-        "version": "5f8dce423e71f16ccd70aaad81680a9906cc154d2036626f49a3785f920bba22",
+        "version": "ddae3adb413a2eea5103783df25d8aeaa7e611d51ef3b0f252ffc1b68e7aff04",
         "signature": "622fea5205dd08c0883b27f3dc6f33bedc3bbd9d41e1251235e70af0128e02e4",
         "affectsGlobalScope": false
       },
@@ -447,178 +447,138 @@
         "affectsGlobalScope": false
       },
       "../src/generator/utils.ts": {
-        "version": "a386a817f7e5ecaae902161e5a7a621841b8e9ad1db7e7c1c6261c8ca97d6237",
+        "version": "88868379236efaf1ad68eee5eef6a5025e70285b0986b0b751bcf144034766fb",
         "signature": "31c556c3f6727c6af390d51c92f390995c73e29ecb1c5787a810ea671e0d38c2",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/interfaces.ts": {
-        "version": "a97b091b78d4b641f34896acbf762788df46d0b6259749ccce8a2c953c972f1a",
+        "version": "7bec7e0f840c3f13f73cbf4099e9d36ae8c4d80aef7be30dcab418efbb443270",
         "signature": "410ea71b47b27eebbfc951f051ab2ba3a822ba981fcd6b18446896102d7a001b",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/schemas/types.d.ts": {
-        "version": "9c91b7c3cd3e341e2ebe3b0c091f9e25e13da35dc71e4f4ed32ea5537ae559e0",
-        "signature": "9c91b7c3cd3e341e2ebe3b0c091f9e25e13da35dc71e4f4ed32ea5537ae559e0",
+      "../../kecs/dist/schemas/types.d.ts": {
+        "version": "8fbff0151432262e97d5c93d3e6f591389c547bd2696c192c631efb18b5a2a48",
+        "signature": "8fbff0151432262e97d5c93d3e6f591389c547bd2696c192c631efb18b5a2a48",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/types.d.ts": {
-        "version": "2a99035ad099d569ac492afe42759af1eaa2bbd26aae5e351da706138da799f9",
-        "signature": "2a99035ad099d569ac492afe42759af1eaa2bbd26aae5e351da706138da799f9",
+      "../../kecs/dist/data/types.d.ts": {
+        "version": "835dcd98415f3eb69b27e54bc6b56480ecf69710cee94f4184a768d50be2bd35",
+        "signature": "835dcd98415f3eb69b27e54bc6b56480ecf69710cee94f4184a768d50be2bd35",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/utils.d.ts": {
+      "../../kecs/dist/data/utils.d.ts": {
         "version": "6f41d8f3fdc450fa270e09cbf9a2a5d8ee636ac5775ed8f62af3cc7d9f580c13",
         "signature": "6f41d8f3fdc450fa270e09cbf9a2a5d8ee636ac5775ed8f62af3cc7d9f580c13",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/component.d.ts": {
-        "version": "f532756e26a2ca55c2125a26d8b9a5325d1d7669a6c443344bc10e840e48772d",
-        "signature": "f532756e26a2ca55c2125a26d8b9a5325d1d7669a6c443344bc10e840e48772d",
+      "../../kecs/dist/data/component.d.ts": {
+        "version": "833e07d6ff2d27f29a8876f3bde75e072d075b47e87814447a4339f1a9a4c64b",
+        "signature": "833e07d6ff2d27f29a8876f3bde75e072d075b47e87814447a4339f1a9a4c64b",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/componentmanager.d.ts": {
-        "version": "51d3b92a44afc0876b305783bc9314e8e280b09032d0e5f53a20b91ff6ee9a4d",
-        "signature": "51d3b92a44afc0876b305783bc9314e8e280b09032d0e5f53a20b91ff6ee9a4d",
+      "../../kecs/dist/data/componentmanager.d.ts": {
+        "version": "e0c4ddf161ff74eba392b458a6f56d73a5a9ddf6ced230f72e97d7088757c0cc",
+        "signature": "e0c4ddf161ff74eba392b458a6f56d73a5a9ddf6ced230f72e97d7088757c0cc",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/entity.d.ts": {
-        "version": "bfb9d8dbe7ca749f73997fe6dcce635901e272ec44f7fc49982a7a87ddd4da19",
-        "signature": "bfb9d8dbe7ca749f73997fe6dcce635901e272ec44f7fc49982a7a87ddd4da19",
+      "../../kecs/dist/data/entity.d.ts": {
+        "version": "8c1174dbd2f983ce4ebdd9bbab406114e780210599bbdd5da55298d4f69cfc6e",
+        "signature": "8c1174dbd2f983ce4ebdd9bbab406114e780210599bbdd5da55298d4f69cfc6e",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/systemcollection.d.ts": {
-        "version": "fa308aec664e31b968bd9a51fa37dae5cbc10eaaff2e2b3e40ed7d96c6c13451",
-        "signature": "fa308aec664e31b968bd9a51fa37dae5cbc10eaaff2e2b3e40ed7d96c6c13451",
+      "../../kecs/dist/data/systemcollection.d.ts": {
+        "version": "eb9145c95797ecf7c4829f4d1d749083fe094081206d6c5f80eab78892ca97ac",
+        "signature": "eb9145c95797ecf7c4829f4d1d749083fe094081206d6c5f80eab78892ca97ac",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/pipeline.d.ts": {
-        "version": "717fd159448d36555f394b2ead2a53dc160e8f08b3191d38c926257e30aa376f",
-        "signature": "717fd159448d36555f394b2ead2a53dc160e8f08b3191d38c926257e30aa376f",
+      "../../kecs/dist/data/pipeline.d.ts": {
+        "version": "bf6fadf795b16735bfda207c717e09c4d7812da6cf50912acde47245335836d4",
+        "signature": "bf6fadf795b16735bfda207c717e09c4d7812da6cf50912acde47245335836d4",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/index.d.ts": {
+      "../../kecs/dist/data/index.d.ts": {
         "version": "90edbaae26f6f51c2dde0295e10ae7a985c367ee7d7139d0b61e69030681664c",
         "signature": "90edbaae26f6f51c2dde0295e10ae7a985c367ee7d7139d0b61e69030681664c",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/data/entitycollection.d.ts": {
-        "version": "5fe3af032df91e85e18d57f6ccb24eb23691068d538846c03e78139c51087d0d",
-        "signature": "5fe3af032df91e85e18d57f6ccb24eb23691068d538846c03e78139c51087d0d",
+      "../../kecs/dist/data/entitycollection.d.ts": {
+        "version": "beb5a3b764e730e07d5b99c4c24df6cdb8965edfa0af611201c9db8673412165",
+        "signature": "beb5a3b764e730e07d5b99c4c24df6cdb8965edfa0af611201c9db8673412165",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/types.d.ts": {
-        "version": "d4544624ff128bdf31b1da33ff30117a559b6444e53d862fbe3f9b7efe53beed",
-        "signature": "d4544624ff128bdf31b1da33ff30117a559b6444e53d862fbe3f9b7efe53beed",
+      "../../kecs/dist/types.d.ts": {
+        "version": "2148bda1a10f5dd5023448db509192c62ac99ec760fe25c9165230053ac261b6",
+        "signature": "2148bda1a10f5dd5023448db509192c62ac99ec760fe25c9165230053ac261b6",
         "affectsGlobalScope": false
       },
-      "../../krypton-ecs/dist/index.d.ts": {
-        "version": "dd3e5d13b11b38057338f723199024d0492503a271ebf142ac46da7a007bfd7a",
-        "signature": "dd3e5d13b11b38057338f723199024d0492503a271ebf142ac46da7a007bfd7a",
+      "../../kecs/dist/ecs_base.d.ts": {
+        "version": "ba93f7d7eea3e0a23d522c5d1be0108067acebf94761bdfa68dd94da896276ef",
+        "signature": "ba93f7d7eea3e0a23d522c5d1be0108067acebf94761bdfa68dd94da896276ef",
         "affectsGlobalScope": false
       },
-      "../src/generator/generators/componentfields.ts": {
-        "version": "6a96a84936036d92dfbf5ad7cb170db65b5450822e20571df93e853781c2dc92",
-        "signature": "d79df3ab30a5e721b6be9413df4c9ea3c83ee82ae691b7e6dc7357a7ef428abf",
+      "../../kecs/dist/index.d.ts": {
+        "version": "15526281dc3edfca47e351aaca777923687c337a41adf240eb36e837f9205e8c",
+        "signature": "15526281dc3edfca47e351aaca777923687c337a41adf240eb36e837f9205e8c",
         "affectsGlobalScope": false
       },
-      "../src/generator/generators/ecsdefine.ts": {
-        "version": "3d7c06cdfec7c46d430105e5a57f030214f626e73f9e4c3d36b0b4f591da4d01",
-        "signature": "4a022d12f5cb31fe27b6805574a715828dcaf63a9bc79cb582e0f13289ba8164",
+      "../src/generator/generators/componentschema.ts": {
+        "version": "6889d5f97769ba713dc4c5c1429dc19329a8bf479f9562847c66279bc799c2bf",
+        "signature": "fe7e48d40753fa7b98ff838e3de55558652b65366fcdcb1441ff1fb533d232e4",
         "affectsGlobalScope": false
       },
-      "../src/generator/generators/entities.ts": {
-        "version": "c21dd6b5aea276c98bca71da70bc0827fadd09617c385614c9b0cfa413b8b4f9",
-        "signature": "bc132a79e7ea79e853f1e4619fd0f9653298a86bb7eb1e65119223f48c806a0e",
+      "../src/generator/generators/schema.ts": {
+        "version": "a16b2811da6fd9f436d9e5c6c2247619b20c286f8a7270eae102dd0ba399eb53",
+        "signature": "b296263e5fb1bbdf76b29a49179fdc6b6956a0e67f3b49d1c79cac07c1685e07",
         "affectsGlobalScope": false
       },
       "../package.json": {
-        "version": "228bcd99414669121579cbc16b2aeed9a2ab4c23c6c073a58c7919fd4c00dc43",
+        "version": "643826be0b586270ba8e9347432ac5432430d0a0e109b82a2a910800058e6b87",
         "affectsGlobalScope": true
       },
       "../src/generator/generators/packagejson.ts": {
-        "version": "333d6ab2ae35090d614c62700d91a673a3d9ccaf3334b07fba29aa7b9d0b9197",
+        "version": "7ab36aaf68e9fbe7d0a9bd1131e186f83df7de9999e44bbebf8bf17d0021bac5",
         "signature": "ca339dfdb7ec7e5730e8afc476b6c1681c61dd6cba922d5a4d7b5cd1f9b9f6d6",
         "affectsGlobalScope": false
       },
       "../src/generator/index.ts": {
-        "version": "ee2113b5cc98bbc68c2217a811c5d8eb95a2cc3280670ea1d2a89bedf247ede3",
+        "version": "76e700ccc078a3b9070789e6ab7d87bfa5df12f576b32e6629e2468c6bdfbb7c",
         "signature": "ef58c6ea6d2b8b5778859042ff76657de2cd1095ee126839067d2e9d00781afe",
         "affectsGlobalScope": false
       },
       "../src/projectinit/types.ts": {
-        "version": "df626ddab4c31e6f76cdd3de6ceb0b905ad7db7efa5d0c0d2e9728af8e74d67c",
+        "version": "1481c48418b53ce9e7e6cd27ccb0d986e020c2ec8524e7b8c073ae3080969eca",
         "signature": "7a4ed2a0293cf9cf731d4b5354287b0b835e2d18a56279d867952a8ec2cafa23",
         "affectsGlobalScope": false
       },
       "../src/projectinit/index.ts": {
-        "version": "c554021c8183df5ce1413db81eec1450a6113b7107ed3c83303e66bdf7bb9c46",
+        "version": "798341583f190fc649c15bbb35a0dcbfe38d927f9394b333b5e2ea53611835ff",
         "signature": "4e70d19079eccac27129bd3666148fe199357bd473ac9e4b4d8f81fc71e42966",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "59ce7687fcd4668c039b0915491c6b2a868fbd7024135fdcec14771ce99e57df",
+        "version": "43161b982f9b640e119f2a2a99e8d26f1a56c2170006bc980446905a53d2f63a",
         "signature": "00316e779bb16e52d58ebe243051bc85fe123e66577a482f57c290a6f2e1a779",
+        "affectsGlobalScope": false
+      },
+      "../src/generator/generators/customecs.ts": {
+        "version": "f5f3823a18fa7b666945df1c0918937df5d2d4401248af5373b24c65d1b4cfaf",
+        "signature": "0acdc461ecbee6c4af9d9b0e786ea8383965d0e999365e2fef781d25cd7140e6",
+        "affectsGlobalScope": false
+      },
+      "../src/generator/generators/ecsdefine.ts": {
+        "version": "3acd9285d1e84c16aea7954410d6e25a7d671dd2862f2f0f8c0cd020e6ff27a9",
+        "signature": "4a022d12f5cb31fe27b6805574a715828dcaf63a9bc79cb582e0f13289ba8164",
+        "affectsGlobalScope": false
+      },
+      "../src/generator/generators/entities.ts": {
+        "version": "b22dc8c4ecd1f83c5a13a7c482fe97f9a20d51dd520c92dd29afe11b94c2bd25",
+        "signature": "bc132a79e7ea79e853f1e4619fd0f9653298a86bb7eb1e65119223f48c806a0e",
         "affectsGlobalScope": false
       },
       "../src/schema/index.ts": {
         "version": "e49db02716339e61a68c336e7d952de0f3b7e9288b72e8a1b2b10358d7d4b3f4",
         "signature": "2f2c63edaa739d33624fbea5ccd7ed709bc2f1d6103827dafd67de4f24214bb8",
         "affectsGlobalScope": false
-      },
-      "../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
-        "version": "de18acda71730bac52f4b256ce7511bb56cc21f6f114c59c46782eff2f632857",
-        "signature": "de18acda71730bac52f4b256ce7511bb56cc21f6f114c59c46782eff2f632857",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/istanbul-lib-report/index.d.ts": {
-        "version": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
-        "signature": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/istanbul-reports/index.d.ts": {
-        "version": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
-        "signature": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/jest-diff/build/cleanupsemantic.d.ts": {
-        "version": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
-        "signature": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/jest-diff/build/types.d.ts": {
-        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
-        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/jest-diff/build/difflines.d.ts": {
-        "version": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
-        "signature": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/jest-diff/build/printdiffs.d.ts": {
-        "version": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
-        "signature": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/jest-diff/build/index.d.ts": {
-        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
-        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/pretty-format/build/types.d.ts": {
-        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
-        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/pretty-format/build/index.d.ts": {
-        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
-        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/jest/index.d.ts": {
-        "version": "ce2169125f42515a26fa60977b6d56ae407f3462e28832fbf6a9013f6a828bab",
-        "signature": "ce2169125f42515a26fa60977b6d56ae407f3462e28832fbf6a9013f6a828bab",
-        "affectsGlobalScope": true
       },
       "../node_modules/@types/minimist/index.d.ts": {
         "version": "e437d83044ba17246a861aa9691aa14223ff4a9d6f338ab1269c41c758586a88",
@@ -667,16 +627,6 @@
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/node/index.d.ts"
       ],
-      "../node_modules/@types/istanbul-lib-report/index.d.ts": [
-        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
-      ],
-      "../node_modules/@types/istanbul-reports/index.d.ts": [
-        "../node_modules/@types/istanbul-lib-report/index.d.ts"
-      ],
-      "../node_modules/@types/jest/index.d.ts": [
-        "../node_modules/jest-diff/build/index.d.ts",
-        "../node_modules/pretty-format/build/index.d.ts"
-      ],
       "../node_modules/@types/micromatch/index.d.ts": [
         "../node_modules/@types/braces/index.d.ts"
       ],
@@ -911,26 +861,12 @@
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
       ],
-      "../node_modules/jest-diff/build/difflines.d.ts": [
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/types.d.ts"
-      ],
-      "../node_modules/jest-diff/build/index.d.ts": [
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/difflines.d.ts",
-        "../node_modules/jest-diff/build/printdiffs.d.ts",
-        "../node_modules/jest-diff/build/types.d.ts"
-      ],
-      "../node_modules/jest-diff/build/printdiffs.d.ts": [
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/types.d.ts"
-      ],
-      "../node_modules/pretty-format/build/index.d.ts": [
-        "../node_modules/pretty-format/build/types.d.ts"
-      ],
-      "../src/generator/generators/componentfields.ts": [
-        "../../krypton-ecs/dist/index.d.ts",
+      "../src/generator/generators/componentschema.ts": [
+        "../../kecs/dist/index.d.ts",
         "../src/generator/utils.ts"
+      ],
+      "../src/generator/generators/customecs.ts": [
+        "../src/schema/types.ts"
       ],
       "../src/generator/generators/ecsdefine.ts": [
         "../src/generator/utils.ts",
@@ -947,15 +883,18 @@
       "../src/generator/generators/packagejson.ts": [
         "../package.json"
       ],
+      "../src/generator/generators/schema.ts": [
+        "../../kecs/dist/index.d.ts",
+        "../src/generator/generators/componentschema.ts",
+        "../src/generator/utils.ts"
+      ],
       "../src/generator/index.ts": [
         "../node_modules/@types/findup-sync/index.d.ts",
         "../node_modules/@types/node/fs/promises.d.ts",
         "../node_modules/@types/node/path.d.ts",
-        "../src/generator/generators/componentfields.ts",
-        "../src/generator/generators/ecsdefine.ts",
-        "../src/generator/generators/entities.ts",
         "../src/generator/generators/interfaces.ts",
         "../src/generator/generators/packagejson.ts",
+        "../src/generator/generators/schema.ts",
         "../src/generator/types.ts",
         "../src/parsers/yaml.ts",
         "../src/schema/types.ts"
@@ -978,64 +917,69 @@
       "../src/schema/index.ts": [
         "../src/schema/types.ts"
       ],
-      "../../krypton-ecs/dist/data/component.d.ts": [
-        "../../krypton-ecs/dist/data/utils.d.ts",
-        "../../krypton-ecs/dist/index.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/data/component.d.ts": [
+        "../../kecs/dist/data/utils.d.ts",
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
       ],
-      "../../krypton-ecs/dist/data/componentmanager.d.ts": [
-        "../../krypton-ecs/dist/data/component.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/componentmanager.d.ts": [
+        "../../kecs/dist/data/component.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/entity.d.ts": [
-        "../../krypton-ecs/dist/data/component.d.ts",
-        "../../krypton-ecs/dist/data/componentmanager.d.ts",
-        "../../krypton-ecs/dist/data/utils.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/data/entity.d.ts": [
+        "../../kecs/dist/data/component.d.ts",
+        "../../kecs/dist/data/componentmanager.d.ts",
+        "../../kecs/dist/data/utils.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
       ],
-      "../../krypton-ecs/dist/data/entitycollection.d.ts": [
-        "../../krypton-ecs/dist/data/index.d.ts",
-        "../../krypton-ecs/dist/index.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/data/entitycollection.d.ts": [
+        "../../kecs/dist/data/index.d.ts",
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
       ],
-      "../../krypton-ecs/dist/data/index.d.ts": [
-        "../../krypton-ecs/dist/data/component.d.ts",
-        "../../krypton-ecs/dist/data/entity.d.ts",
-        "../../krypton-ecs/dist/data/entitycollection.d.ts",
-        "../../krypton-ecs/dist/data/pipeline.d.ts",
-        "../../krypton-ecs/dist/data/systemcollection.d.ts",
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/data/utils.d.ts"
+      "../../kecs/dist/data/index.d.ts": [
+        "../../kecs/dist/data/component.d.ts",
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/data/entitycollection.d.ts",
+        "../../kecs/dist/data/pipeline.d.ts",
+        "../../kecs/dist/data/systemcollection.d.ts",
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/data/utils.d.ts"
       ],
-      "../../krypton-ecs/dist/data/pipeline.d.ts": [
-        "../../krypton-ecs/dist/data/entity.d.ts",
-        "../../krypton-ecs/dist/data/systemcollection.d.ts",
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/pipeline.d.ts": [
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/data/systemcollection.d.ts",
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/systemcollection.d.ts": [
-        "../../krypton-ecs/dist/data/pipeline.d.ts",
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/systemcollection.d.ts": [
+        "../../kecs/dist/data/pipeline.d.ts",
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/types.d.ts": [
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/types.d.ts": [
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/utils.d.ts": [
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/utils.d.ts": [
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/index.d.ts": [
-        "../../krypton-ecs/dist/data/componentmanager.d.ts",
-        "../../krypton-ecs/dist/data/entity.d.ts",
-        "../../krypton-ecs/dist/data/entitycollection.d.ts",
-        "../../krypton-ecs/dist/data/index.d.ts",
-        "../../krypton-ecs/dist/data/pipeline.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts",
-        "../../krypton-ecs/dist/types.d.ts"
+      "../../kecs/dist/ecs_base.d.ts": [
+        "../../kecs/dist/data/componentmanager.d.ts",
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/data/entitycollection.d.ts",
+        "../../kecs/dist/data/index.d.ts",
+        "../../kecs/dist/data/pipeline.d.ts",
+        "../../kecs/dist/schemas/types.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
-      "../../krypton-ecs/dist/types.d.ts": [
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/index.d.ts": [
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/ecs_base.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
+      ],
+      "../../kecs/dist/types.d.ts": [
+        "../../kecs/dist/schemas/types.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1046,16 +990,6 @@
         "../node_modules/@types/minimatch/index.d.ts",
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/node/index.d.ts"
-      ],
-      "../node_modules/@types/istanbul-lib-report/index.d.ts": [
-        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
-      ],
-      "../node_modules/@types/istanbul-reports/index.d.ts": [
-        "../node_modules/@types/istanbul-lib-report/index.d.ts"
-      ],
-      "../node_modules/@types/jest/index.d.ts": [
-        "../node_modules/jest-diff/build/index.d.ts",
-        "../node_modules/pretty-format/build/index.d.ts"
       ],
       "../node_modules/@types/micromatch/index.d.ts": [
         "../node_modules/@types/braces/index.d.ts"
@@ -1291,25 +1225,11 @@
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
       ],
-      "../node_modules/jest-diff/build/difflines.d.ts": [
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/types.d.ts"
+      "../src/generator/generators/componentschema.ts": [
+        "../../kecs/dist/index.d.ts"
       ],
-      "../node_modules/jest-diff/build/index.d.ts": [
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/difflines.d.ts",
-        "../node_modules/jest-diff/build/printdiffs.d.ts",
-        "../node_modules/jest-diff/build/types.d.ts"
-      ],
-      "../node_modules/jest-diff/build/printdiffs.d.ts": [
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/types.d.ts"
-      ],
-      "../node_modules/pretty-format/build/index.d.ts": [
-        "../node_modules/pretty-format/build/types.d.ts"
-      ],
-      "../src/generator/generators/componentfields.ts": [
-        "../../krypton-ecs/dist/index.d.ts"
+      "../src/generator/generators/customecs.ts": [
+        "../src/schema/types.ts"
       ],
       "../src/generator/generators/ecsdefine.ts": [
         "../src/schema/types.ts"
@@ -1319,6 +1239,9 @@
       ],
       "../src/generator/generators/interfaces.ts": [
         "../src/schema/types.ts"
+      ],
+      "../src/generator/generators/schema.ts": [
+        "../../kecs/dist/index.d.ts"
       ],
       "../src/generator/index.ts": [
         "../src/generator/types.ts"
@@ -1332,74 +1255,75 @@
       "../src/schema/index.ts": [
         "../src/schema/types.ts"
       ],
-      "../../krypton-ecs/dist/data/component.d.ts": [
-        "../../krypton-ecs/dist/data/utils.d.ts",
-        "../../krypton-ecs/dist/index.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/data/component.d.ts": [
+        "../../kecs/dist/data/utils.d.ts",
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
       ],
-      "../../krypton-ecs/dist/data/componentmanager.d.ts": [
-        "../../krypton-ecs/dist/data/component.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/componentmanager.d.ts": [
+        "../../kecs/dist/data/component.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/entity.d.ts": [
-        "../../krypton-ecs/dist/data/component.d.ts",
-        "../../krypton-ecs/dist/data/componentmanager.d.ts",
-        "../../krypton-ecs/dist/data/utils.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/data/entity.d.ts": [
+        "../../kecs/dist/data/component.d.ts",
+        "../../kecs/dist/data/componentmanager.d.ts",
+        "../../kecs/dist/data/utils.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
       ],
-      "../../krypton-ecs/dist/data/entitycollection.d.ts": [
-        "../../krypton-ecs/dist/data/index.d.ts",
-        "../../krypton-ecs/dist/index.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/data/entitycollection.d.ts": [
+        "../../kecs/dist/data/index.d.ts",
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
       ],
-      "../../krypton-ecs/dist/data/index.d.ts": [
-        "../../krypton-ecs/dist/data/component.d.ts",
-        "../../krypton-ecs/dist/data/entity.d.ts",
-        "../../krypton-ecs/dist/data/entitycollection.d.ts",
-        "../../krypton-ecs/dist/data/pipeline.d.ts",
-        "../../krypton-ecs/dist/data/systemcollection.d.ts",
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/data/utils.d.ts"
+      "../../kecs/dist/data/index.d.ts": [
+        "../../kecs/dist/data/component.d.ts",
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/data/entitycollection.d.ts",
+        "../../kecs/dist/data/pipeline.d.ts",
+        "../../kecs/dist/data/systemcollection.d.ts",
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/data/utils.d.ts"
       ],
-      "../../krypton-ecs/dist/data/pipeline.d.ts": [
-        "../../krypton-ecs/dist/data/entity.d.ts",
-        "../../krypton-ecs/dist/data/systemcollection.d.ts",
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/pipeline.d.ts": [
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/data/systemcollection.d.ts",
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/systemcollection.d.ts": [
-        "../../krypton-ecs/dist/data/pipeline.d.ts",
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/systemcollection.d.ts": [
+        "../../kecs/dist/data/pipeline.d.ts",
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/types.d.ts": [
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/types.d.ts": [
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/data/utils.d.ts": [
-        "../../krypton-ecs/dist/data/types.d.ts",
-        "../../krypton-ecs/dist/index.d.ts"
+      "../../kecs/dist/data/utils.d.ts": [
+        "../../kecs/dist/data/types.d.ts",
+        "../../kecs/dist/index.d.ts"
       ],
-      "../../krypton-ecs/dist/index.d.ts": [
-        "../../krypton-ecs/dist/data/componentmanager.d.ts",
-        "../../krypton-ecs/dist/data/entity.d.ts",
-        "../../krypton-ecs/dist/data/entitycollection.d.ts",
-        "../../krypton-ecs/dist/data/index.d.ts",
-        "../../krypton-ecs/dist/data/pipeline.d.ts",
-        "../../krypton-ecs/dist/schemas/types.d.ts",
-        "../../krypton-ecs/dist/types.d.ts"
+      "../../kecs/dist/ecs_base.d.ts": [
+        "../../kecs/dist/data/componentmanager.d.ts",
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/data/entitycollection.d.ts",
+        "../../kecs/dist/data/index.d.ts",
+        "../../kecs/dist/data/pipeline.d.ts",
+        "../../kecs/dist/schemas/types.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
-      "../../krypton-ecs/dist/types.d.ts": [
-        "../../krypton-ecs/dist/schemas/types.d.ts"
+      "../../kecs/dist/index.d.ts": [
+        "../../kecs/dist/data/entity.d.ts",
+        "../../kecs/dist/ecs_base.d.ts",
+        "../../kecs/dist/schemas/types.d.ts"
+      ],
+      "../../kecs/dist/types.d.ts": [
+        "../../kecs/dist/schemas/types.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
       "../node_modules/@types/braces/index.d.ts",
       "../node_modules/@types/findup-sync/index.d.ts",
       "../node_modules/@types/glob/index.d.ts",
-      "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
-      "../node_modules/@types/istanbul-lib-report/index.d.ts",
-      "../node_modules/@types/istanbul-reports/index.d.ts",
-      "../node_modules/@types/jest/index.d.ts",
       "../node_modules/@types/js-yaml/index.d.ts",
       "../node_modules/@types/micromatch/index.d.ts",
       "../node_modules/@types/minimatch/index.d.ts",
@@ -1452,13 +1376,6 @@
       "../node_modules/@types/node/zlib.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-      "../node_modules/jest-diff/build/difflines.d.ts",
-      "../node_modules/jest-diff/build/index.d.ts",
-      "../node_modules/jest-diff/build/printdiffs.d.ts",
-      "../node_modules/jest-diff/build/types.d.ts",
-      "../node_modules/pretty-format/build/index.d.ts",
-      "../node_modules/pretty-format/build/types.d.ts",
       "../node_modules/typescript/lib/lib.dom.d.ts",
       "../node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
@@ -1492,11 +1409,26 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../package.json",
-      "../src/generator/generators/componentfields.ts",
+      [
+        "../src/generator/generators/componentschema.ts",
+        [
+          {
+            "file": "../src/generator/generators/componentschema.ts",
+            "start": 27,
+            "length": 10,
+            "messageText": "'IECSSchema' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "../src/generator/generators/customecs.ts",
       "../src/generator/generators/ecsdefine.ts",
       "../src/generator/generators/entities.ts",
       "../src/generator/generators/interfaces.ts",
       "../src/generator/generators/packagejson.ts",
+      "../src/generator/generators/schema.ts",
       "../src/generator/index.ts",
       "../src/generator/types.ts",
       "../src/generator/utils.ts",
@@ -1506,18 +1438,19 @@
       "../src/projectinit/types.ts",
       "../src/schema/index.ts",
       "../src/schema/types.ts",
-      "../../krypton-ecs/dist/data/component.d.ts",
-      "../../krypton-ecs/dist/data/componentmanager.d.ts",
-      "../../krypton-ecs/dist/data/entity.d.ts",
-      "../../krypton-ecs/dist/data/entitycollection.d.ts",
-      "../../krypton-ecs/dist/data/index.d.ts",
-      "../../krypton-ecs/dist/data/pipeline.d.ts",
-      "../../krypton-ecs/dist/data/systemcollection.d.ts",
-      "../../krypton-ecs/dist/data/types.d.ts",
-      "../../krypton-ecs/dist/data/utils.d.ts",
-      "../../krypton-ecs/dist/index.d.ts",
-      "../../krypton-ecs/dist/schemas/types.d.ts",
-      "../../krypton-ecs/dist/types.d.ts"
+      "../../kecs/dist/data/component.d.ts",
+      "../../kecs/dist/data/componentmanager.d.ts",
+      "../../kecs/dist/data/entity.d.ts",
+      "../../kecs/dist/data/entitycollection.d.ts",
+      "../../kecs/dist/data/index.d.ts",
+      "../../kecs/dist/data/pipeline.d.ts",
+      "../../kecs/dist/data/systemcollection.d.ts",
+      "../../kecs/dist/data/types.d.ts",
+      "../../kecs/dist/data/utils.d.ts",
+      "../../kecs/dist/ecs_base.d.ts",
+      "../../kecs/dist/index.d.ts",
+      "../../kecs/dist/schemas/types.d.ts",
+      "../../kecs/dist/types.d.ts"
     ]
   },
   "version": "4.2.4"

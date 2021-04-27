@@ -1,13 +1,8 @@
-import packageJsonData from "../../../package.json";
-
 export const generate = () => {
   const packageJson = {
-    name: "@kryptonstudio/ecs-client",
+    name: "ecs-client-types",
     version: "1.0.0",
-    license: "MIT",
-    dependencies: {
-      "@kryptonstudio/ecs": packageJsonData.dependencies["@kryptonstudio/ecs"]
-    }
+    license: "MIT"
   }
 
   return JSON.stringify(packageJson, undefined, 2);
