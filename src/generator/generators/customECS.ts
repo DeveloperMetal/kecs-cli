@@ -1,10 +1,11 @@
 import { IECSSchema } from "../../schema/types";
-import { reduce } from "../utils";
 
-export const generate = (data: IECSSchema) => reduce(data.components, (component) => `
+export const generate = (_data: IECSSchema) => `
 /**
  * ECS Client
  **/
-export interface ECSClient extends ECS {
-
-}`);
+export interface ECSClient extends ECSBase<IComponents> {
+  constructor(opts) {
+    super(schema, opts);
+  }
+}`;

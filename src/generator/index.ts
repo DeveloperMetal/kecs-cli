@@ -5,33 +5,20 @@ import findup from "findup-sync";
 import fs from "fs/promises";
 import path from "path";
 import { generate as generateInterfaces } from "./generators/interfaces";
-import { generate as generateFields } from "./generators/componentFields";
-import { generate as generateDefine } from "./generators/ecsDefine";
-import { generate as generateEntities } from "./generators/entities";
+import { generate as generateSchema } from "./generators/schema";
 import { generate as generatePackage } from "./generators/packageJson";
 
 function generateCode(data: IECSSchema) {
   const src = `
 import {
-  IDefine,
-  IComponent,
-  IEntity,
-  FieldTypeOf,
-  ComponentFields,
-  ECSDefine,
-  ECS } from "@kryptonstudio/ecs";
+  ECSBase
+} from "@kryptonstudio/ecs";
 
-// Interfaces /////////////////////////////////////////////////////////////////
+// Component and Entity Schema ////////////////////////////////////////////////
+${generateSchema(data)}
+
+// Component Interfaces //////////////////////////////////////////////////////
 ${generateInterfaces(data)}
-
-// Fields /////////////////////////////////////////////////////////////////////
-${generateFields(data)}
-
-// ECSDefine //////////////////////////////////////////////////////////////////
-${generateDefine(data)}
-
-// Entities ///////////////////////////////////////////////////////////////////
-${generateEntities(data)}
 `;
 
   return src;
