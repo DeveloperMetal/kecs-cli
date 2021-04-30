@@ -452,13 +452,13 @@
         "affectsGlobalScope": false
       },
       "../src/generator/generators/interfaces.ts": {
-        "version": "7bec7e0f840c3f13f73cbf4099e9d36ae8c4d80aef7be30dcab418efbb443270",
+        "version": "402b1a385a80ab4349103536f89f20900b385c17d7acb9ff843499ec03988f56",
         "signature": "410ea71b47b27eebbfc951f051ab2ba3a822ba981fcd6b18446896102d7a001b",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/schemas/types.d.ts": {
-        "version": "8fbff0151432262e97d5c93d3e6f591389c547bd2696c192c631efb18b5a2a48",
-        "signature": "8fbff0151432262e97d5c93d3e6f591389c547bd2696c192c631efb18b5a2a48",
+        "version": "41831e4f68b700861d58924a0679f6a2a2da9f290ee13363fabab0be795b7729",
+        "signature": "41831e4f68b700861d58924a0679f6a2a2da9f290ee13363fabab0be795b7729",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/types.d.ts": {
@@ -502,8 +502,8 @@
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/entitycollection.d.ts": {
-        "version": "beb5a3b764e730e07d5b99c4c24df6cdb8965edfa0af611201c9db8673412165",
-        "signature": "beb5a3b764e730e07d5b99c4c24df6cdb8965edfa0af611201c9db8673412165",
+        "version": "97f77ef2faeb6d72f40172797a7c753a231ac749d8005cad6d3e323d2acb918f",
+        "signature": "97f77ef2faeb6d72f40172797a7c753a231ac749d8005cad6d3e323d2acb918f",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/types.d.ts": {
@@ -517,31 +517,27 @@
         "affectsGlobalScope": false
       },
       "../../kecs/dist/index.d.ts": {
-        "version": "15526281dc3edfca47e351aaca777923687c337a41adf240eb36e837f9205e8c",
-        "signature": "15526281dc3edfca47e351aaca777923687c337a41adf240eb36e837f9205e8c",
+        "version": "5b7c711bf34b7a73c0e61a892e2ebc4e6b275afaafca2b9c0f40d1777c52752a",
+        "signature": "5b7c711bf34b7a73c0e61a892e2ebc4e6b275afaafca2b9c0f40d1777c52752a",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/componentschema.ts": {
-        "version": "6889d5f97769ba713dc4c5c1429dc19329a8bf479f9562847c66279bc799c2bf",
+        "version": "c8736488b99f6e26deba5f909b22981408f8829bb38f9d8f3ba9ec5fc820176d",
         "signature": "fe7e48d40753fa7b98ff838e3de55558652b65366fcdcb1441ff1fb533d232e4",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/schema.ts": {
-        "version": "a16b2811da6fd9f436d9e5c6c2247619b20c286f8a7270eae102dd0ba399eb53",
+        "version": "8eeef9e4ca59bf7e305d5ea4fbd844d7561969f4eb566f6db4078c90fbfe94e8",
         "signature": "b296263e5fb1bbdf76b29a49179fdc6b6956a0e67f3b49d1c79cac07c1685e07",
         "affectsGlobalScope": false
       },
-      "../package.json": {
-        "version": "643826be0b586270ba8e9347432ac5432430d0a0e109b82a2a910800058e6b87",
-        "affectsGlobalScope": true
-      },
       "../src/generator/generators/packagejson.ts": {
-        "version": "7ab36aaf68e9fbe7d0a9bd1131e186f83df7de9999e44bbebf8bf17d0021bac5",
+        "version": "b662b3b3d1d9c5eabc3b41e1086a1c024c660834ec0a3efb796093be9dee394e",
         "signature": "ca339dfdb7ec7e5730e8afc476b6c1681c61dd6cba922d5a4d7b5cd1f9b9f6d6",
         "affectsGlobalScope": false
       },
       "../src/generator/index.ts": {
-        "version": "76e700ccc078a3b9070789e6ab7d87bfa5df12f576b32e6629e2468c6bdfbb7c",
+        "version": "4fc882e925903f773b199657c1bae88f9ca3355c76338a31a1cf0528d427711d",
         "signature": "ef58c6ea6d2b8b5778859042ff76657de2cd1095ee126839067d2e9d00781afe",
         "affectsGlobalScope": false
       },
@@ -563,16 +559,6 @@
       "../src/generator/generators/customecs.ts": {
         "version": "f5f3823a18fa7b666945df1c0918937df5d2d4401248af5373b24c65d1b4cfaf",
         "signature": "0acdc461ecbee6c4af9d9b0e786ea8383965d0e999365e2fef781d25cd7140e6",
-        "affectsGlobalScope": false
-      },
-      "../src/generator/generators/ecsdefine.ts": {
-        "version": "3acd9285d1e84c16aea7954410d6e25a7d671dd2862f2f0f8c0cd020e6ff27a9",
-        "signature": "4a022d12f5cb31fe27b6805574a715828dcaf63a9bc79cb582e0f13289ba8164",
-        "affectsGlobalScope": false
-      },
-      "../src/generator/generators/entities.ts": {
-        "version": "b22dc8c4ecd1f83c5a13a7c482fe97f9a20d51dd520c92dd29afe11b94c2bd25",
-        "signature": "bc132a79e7ea79e853f1e4619fd0f9653298a86bb7eb1e65119223f48c806a0e",
         "affectsGlobalScope": false
       },
       "../src/schema/index.ts": {
@@ -868,20 +854,9 @@
       "../src/generator/generators/customecs.ts": [
         "../src/schema/types.ts"
       ],
-      "../src/generator/generators/ecsdefine.ts": [
-        "../src/generator/utils.ts",
-        "../src/schema/types.ts"
-      ],
-      "../src/generator/generators/entities.ts": [
-        "../src/generator/utils.ts",
-        "../src/schema/types.ts"
-      ],
       "../src/generator/generators/interfaces.ts": [
         "../src/generator/utils.ts",
         "../src/schema/types.ts"
-      ],
-      "../src/generator/generators/packagejson.ts": [
-        "../package.json"
       ],
       "../src/generator/generators/schema.ts": [
         "../../kecs/dist/index.d.ts",
@@ -890,6 +865,7 @@
       ],
       "../src/generator/index.ts": [
         "../node_modules/@types/findup-sync/index.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
         "../node_modules/@types/node/fs/promises.d.ts",
         "../node_modules/@types/node/path.d.ts",
         "../src/generator/generators/interfaces.ts",
@@ -976,7 +952,8 @@
       "../../kecs/dist/index.d.ts": [
         "../../kecs/dist/data/entity.d.ts",
         "../../kecs/dist/ecs_base.d.ts",
-        "../../kecs/dist/schemas/types.d.ts"
+        "../../kecs/dist/schemas/types.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/types.d.ts": [
         "../../kecs/dist/schemas/types.d.ts"
@@ -1231,12 +1208,6 @@
       "../src/generator/generators/customecs.ts": [
         "../src/schema/types.ts"
       ],
-      "../src/generator/generators/ecsdefine.ts": [
-        "../src/schema/types.ts"
-      ],
-      "../src/generator/generators/entities.ts": [
-        "../src/schema/types.ts"
-      ],
       "../src/generator/generators/interfaces.ts": [
         "../src/schema/types.ts"
       ],
@@ -1314,7 +1285,8 @@
       "../../kecs/dist/index.d.ts": [
         "../../kecs/dist/data/entity.d.ts",
         "../../kecs/dist/ecs_base.d.ts",
-        "../../kecs/dist/schemas/types.d.ts"
+        "../../kecs/dist/schemas/types.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/types.d.ts": [
         "../../kecs/dist/schemas/types.d.ts"
@@ -1408,24 +1380,8 @@
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../package.json",
-      [
-        "../src/generator/generators/componentschema.ts",
-        [
-          {
-            "file": "../src/generator/generators/componentschema.ts",
-            "start": 27,
-            "length": 10,
-            "messageText": "'IECSSchema' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
+      "../src/generator/generators/componentschema.ts",
       "../src/generator/generators/customecs.ts",
-      "../src/generator/generators/ecsdefine.ts",
-      "../src/generator/generators/entities.ts",
       "../src/generator/generators/interfaces.ts",
       "../src/generator/generators/packagejson.ts",
       "../src/generator/generators/schema.ts",

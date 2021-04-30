@@ -1,6 +1,6 @@
 export const generate = () => {
   const packageJson = {
-    name: "ecs-client-types",
+    name: ".kryptonstudio-ecs-client",
     version: "1.0.0",
     license: "MIT"
   }

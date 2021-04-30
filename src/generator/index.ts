@@ -9,15 +9,21 @@ import { generate as generateInterfaces } from "./generators/interfaces";
 import { generate as generateSchema } from "./generators/schema";
 import { generate as generatePackage } from "./generators/packageJson";
 
-async function installPackages(packages: string[]) {
-  return new Promise(async (resolve, reject) => {
+async function installPackages(packages: { url: string, name: string }[]) {
+  return new Promise<void>(async (resolve, reject) => {
     const packagesToInstall: string[] = [];
-    for (const dep in packages) {
+    for (const dep of packages) {
       try {
-        require(dep);
+        require(dep.name);
       } catch (err) {
-        packagesToInstall.push(dep);
+        // tslint:disable-next-line: no-console
+        console.log("Module not found: ", dep.name);
+        packagesToInstall.push(dep.url);
       }
+    }
+
+    if ( packagesToInstall.length == 0 ) {
+      return resolve();
     }
 
     let cmd = `npm i -s ${packagesToInstall.join(' ')}`;
@@ -28,12 +34,16 @@ async function installPackages(packages: string[]) {
 
     exec(cmd, (error, stdout, stderr) => {
       if ( error ) {
+        // tslint:disable-next-line: no-console
         console.log(stdout);
+        // tslint:disable-next-line: no-console
         console.log(stderr);
         reject(error);
         return;
       }
 
+      // tslint:disable-next-line: no-console
+      console.log(stdout);
       resolve();
     })
   });
@@ -50,16 +60,24 @@ async function usesYarn(cwd = process.cwd()) {
 
 
 function generateCode(data: IECSSchema) {
-  const src = `
-import {
-  IComponent
-} from "@kryptonstudio/ecs";
-
-// Component and Entity Schema ////////////////////////////////////////////////
+  const src = `// Component and Entity Schema ////////////////////////////////////////////////
 ${generateSchema(data)}
+
+module.exports = {
+  schema: componentSchemas
+}
+`;
+
+  return src;
+}
+
+function generateTypes(data: IECSSchema) {
+  const src = `import { IECSSchema, IComponentDefinition } from '@kryptonstudio/ecs';
 
 // Component Interfaces //////////////////////////////////////////////////////
 ${generateInterfaces(data)}
+
+export declare const schema: IECSSchema;
 `;
 
   return src;
@@ -72,20 +90,25 @@ export default async function (argv: IGeneratorArgs) {
   };
 
   try {
+    // tslint:disable-next-line: no-console
+    console.log("-- Loading: ", argv.i);
     await parseYaml(argv.i, data);
   } catch(err) {
+    // tslint:disable-next-line: no-console
     console.log("-- Error parsing yaml ---------------")
+    // tslint:disable-next-line: no-console
     console.error(err);
     return;
   }
   // tslint:disable-next-line: no-console
   const src = generateCode(data);
-  const node_modules_path = findup("node_modules");
-  let output_path = "";
+  const types = generateTypes(data);
+  const nodeModulesPath = findup("node_modules");
+  let outputPath = "";
 
-  if ( node_modules_path ) {
-    output_path = path.join(node_modules_path, ".kryptonstudio", "kecs-client");
-    await fs.mkdir(output_path, {
+  if ( nodeModulesPath ) {
+    outputPath = path.resolve(path.join(nodeModulesPath, ".kryptonstudio-ecs-client"));
+    await fs.mkdir(outputPath, {
       recursive: true
     });
   }
@@ -93,19 +116,25 @@ export default async function (argv: IGeneratorArgs) {
   if ( argv.o ) {
     try {
       await fs.stat(argv.o);
-      output_path = argv.o;
+      outputPath = argv.o;
     } catch(ex) {
+      // tslint:disable-next-line: no-console
       console.log(ex);
       await fs.mkdir(argv.o, { recursive: true });
     }
   }
 
-  if ( src && output_path) {
-    console.log("Writing client...");
-    await fs.writeFile(path.join(output_path, 'index.ts'), src, { encoding: "utf-8" });
-    console.log("Writing @kryptonstudio/ecs-client package");
-    await fs.writeFile(path.join(output_path, 'package.json'), generatePackage(), { encoding: "utf-8" });
-    installPackages(['DeveloperMetal/kecs-client.git#master']);
+  if ( src && outputPath) {
+    // tslint:disable-next-line: no-console
+    console.log("Writing client to: ", outputPath);
+    await fs.writeFile(path.join(outputPath, 'index.js'), src, { encoding: "utf-8" });
+    await fs.writeFile(path.join(outputPath, 'index.d.ts'), types, { encoding: "utf-8" });
+    await fs.writeFile(path.join(outputPath, 'package.json'), generatePackage(), { encoding: "utf-8" });
+    installPackages([]);//{ url: 'DeveloperMetal/kecs-client.git#master', name: "@kryptonstudio/ecs-client"}]);
+    // tslint:disable-next-line: no-console
     console.log("Client Generated.");
+  } else {
+    // tslint:disable-next-line: no-console
+    console.error("Something went wrong. No output path or source generated...");
   }
 }
