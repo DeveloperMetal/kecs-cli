@@ -4,11 +4,11 @@
   "description": "Cli tools for kryptonstudio ecs framework",
   "license": "MIT",
   "bin": {
-    "kecs": "./index.js"
+    "kecs": "./cli.js"
   },
   "files": [
     "lib",
-    "index.js"
+    "cli.js"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
