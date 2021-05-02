@@ -1,9 +1,6 @@
 # Paths
-/node_modules
-/coverage
+node_modules
+coverage
 
 # Files
 *.log
-
-# Editors
-/.vscode
