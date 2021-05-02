@@ -172,7 +172,7 @@
         "affectsGlobalScope": false
       },
       "../src/schema/types.ts": {
-        "version": "7c4681991d3bdbcfeefd382808d82d879f248c3630de54c087682a0cd2e25b91",
+        "version": "5778fc10c64cdbcfea9dd8c7cbdfa77b1d17d4c351f3c4c5979e15678994d8f6",
         "signature": "9c91b7c3cd3e341e2ebe3b0c091f9e25e13da35dc71e4f4ed32ea5537ae559e0",
         "affectsGlobalScope": false
       },
@@ -422,12 +422,12 @@
         "affectsGlobalScope": false
       },
       "../src/parsers/yaml.ts": {
-        "version": "986a891fa1a209b5f239de65a3fc82293c18fb34fcd116732d0f5d2f39fe3c43",
+        "version": "50c7d494d92ac04d55e90f3fcc8c89efdafc5b5d74834d261e370e087e6c16a0",
         "signature": "e1baca63499c58b6ec4df00be5205d649681d6ba818d7123cb021372369a1466",
         "affectsGlobalScope": false
       },
       "../src/generator/types.ts": {
-        "version": "ddae3adb413a2eea5103783df25d8aeaa7e611d51ef3b0f252ffc1b68e7aff04",
+        "version": "5f8dce423e71f16ccd70aaad81680a9906cc154d2036626f49a3785f920bba22",
         "signature": "622fea5205dd08c0883b27f3dc6f33bedc3bbd9d41e1251235e70af0128e02e4",
         "affectsGlobalScope": false
       },
@@ -447,117 +447,112 @@
         "affectsGlobalScope": false
       },
       "../src/generator/utils.ts": {
-        "version": "88868379236efaf1ad68eee5eef6a5025e70285b0986b0b751bcf144034766fb",
+        "version": "a386a817f7e5ecaae902161e5a7a621841b8e9ad1db7e7c1c6261c8ca97d6237",
         "signature": "31c556c3f6727c6af390d51c92f390995c73e29ecb1c5787a810ea671e0d38c2",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/interfaces.ts": {
-        "version": "402b1a385a80ab4349103536f89f20900b385c17d7acb9ff843499ec03988f56",
+        "version": "278b864754274b09fe3c605172f1a7a44725fd81a8dfca4b05f6dacdf1b2a4b9",
         "signature": "410ea71b47b27eebbfc951f051ab2ba3a822ba981fcd6b18446896102d7a001b",
         "affectsGlobalScope": false
       },
-      "../../kecs/dist/schemas/types.d.ts": {
-        "version": "41831e4f68b700861d58924a0679f6a2a2da9f290ee13363fabab0be795b7729",
-        "signature": "41831e4f68b700861d58924a0679f6a2a2da9f290ee13363fabab0be795b7729",
+      "../../kecs/dist/types.d.ts": {
+        "version": "365f22a6e7e04a27a8fc1d53a1a70f78c657e5474bf899bdfb269420377235c0",
+        "signature": "365f22a6e7e04a27a8fc1d53a1a70f78c657e5474bf899bdfb269420377235c0",
         "affectsGlobalScope": false
       },
-      "../../kecs/dist/data/types.d.ts": {
-        "version": "835dcd98415f3eb69b27e54bc6b56480ecf69710cee94f4184a768d50be2bd35",
-        "signature": "835dcd98415f3eb69b27e54bc6b56480ecf69710cee94f4184a768d50be2bd35",
+      "../../kecs/dist/schemas/types.d.ts": {
+        "version": "f5d45a957f3d21e9c7911f5d388d16fff378fec0c668d1d8da959edc83567e0b",
+        "signature": "f5d45a957f3d21e9c7911f5d388d16fff378fec0c668d1d8da959edc83567e0b",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/utils.d.ts": {
-        "version": "6f41d8f3fdc450fa270e09cbf9a2a5d8ee636ac5775ed8f62af3cc7d9f580c13",
-        "signature": "6f41d8f3fdc450fa270e09cbf9a2a5d8ee636ac5775ed8f62af3cc7d9f580c13",
+        "version": "002553d4a2321f6263ea41bb7ecd00f8a4cbe918a35bd1405b86145ec12114e2",
+        "signature": "002553d4a2321f6263ea41bb7ecd00f8a4cbe918a35bd1405b86145ec12114e2",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/component.d.ts": {
-        "version": "833e07d6ff2d27f29a8876f3bde75e072d075b47e87814447a4339f1a9a4c64b",
-        "signature": "833e07d6ff2d27f29a8876f3bde75e072d075b47e87814447a4339f1a9a4c64b",
+        "version": "a349669e9dcc1db4b438a09e59de41abc122c49717366a35ab450656f83115d1",
+        "signature": "a349669e9dcc1db4b438a09e59de41abc122c49717366a35ab450656f83115d1",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/componentmanager.d.ts": {
-        "version": "e0c4ddf161ff74eba392b458a6f56d73a5a9ddf6ced230f72e97d7088757c0cc",
-        "signature": "e0c4ddf161ff74eba392b458a6f56d73a5a9ddf6ced230f72e97d7088757c0cc",
+        "version": "06c1d78acbd8f5fa63d309ee548b8ba0dffc47ea753256deabd2ff1fe1e889ae",
+        "signature": "06c1d78acbd8f5fa63d309ee548b8ba0dffc47ea753256deabd2ff1fe1e889ae",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/entity.d.ts": {
-        "version": "8c1174dbd2f983ce4ebdd9bbab406114e780210599bbdd5da55298d4f69cfc6e",
-        "signature": "8c1174dbd2f983ce4ebdd9bbab406114e780210599bbdd5da55298d4f69cfc6e",
+        "version": "447ed9e599529279403fe24aa4e2d0b605fe785c5e08ee4783836389c3b4f503",
+        "signature": "447ed9e599529279403fe24aa4e2d0b605fe785c5e08ee4783836389c3b4f503",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/systemcollection.d.ts": {
-        "version": "eb9145c95797ecf7c4829f4d1d749083fe094081206d6c5f80eab78892ca97ac",
-        "signature": "eb9145c95797ecf7c4829f4d1d749083fe094081206d6c5f80eab78892ca97ac",
+        "version": "4b3d90548a3a82236310fbd1ffce11ba3d5d07ee7bda5719d44e4396cac5a14d",
+        "signature": "4b3d90548a3a82236310fbd1ffce11ba3d5d07ee7bda5719d44e4396cac5a14d",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/pipeline.d.ts": {
-        "version": "bf6fadf795b16735bfda207c717e09c4d7812da6cf50912acde47245335836d4",
-        "signature": "bf6fadf795b16735bfda207c717e09c4d7812da6cf50912acde47245335836d4",
+        "version": "816ea99ac40ac40431a4d00c4081abe1b201c2160bd215e2604d18ff5fee9952",
+        "signature": "816ea99ac40ac40431a4d00c4081abe1b201c2160bd215e2604d18ff5fee9952",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/index.d.ts": {
-        "version": "90edbaae26f6f51c2dde0295e10ae7a985c367ee7d7139d0b61e69030681664c",
-        "signature": "90edbaae26f6f51c2dde0295e10ae7a985c367ee7d7139d0b61e69030681664c",
+        "version": "45738dce14c02d90c2e593c274b6fcffbaab2e01276a09c7e6a127c75fa4c6d1",
+        "signature": "45738dce14c02d90c2e593c274b6fcffbaab2e01276a09c7e6a127c75fa4c6d1",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/data/entitycollection.d.ts": {
-        "version": "97f77ef2faeb6d72f40172797a7c753a231ac749d8005cad6d3e323d2acb918f",
-        "signature": "97f77ef2faeb6d72f40172797a7c753a231ac749d8005cad6d3e323d2acb918f",
-        "affectsGlobalScope": false
-      },
-      "../../kecs/dist/types.d.ts": {
-        "version": "2148bda1a10f5dd5023448db509192c62ac99ec760fe25c9165230053ac261b6",
-        "signature": "2148bda1a10f5dd5023448db509192c62ac99ec760fe25c9165230053ac261b6",
+        "version": "cc1e79896826136e364b8956529bc9975f2e6dd388e55c641b3c6dcb05526daa",
+        "signature": "cc1e79896826136e364b8956529bc9975f2e6dd388e55c641b3c6dcb05526daa",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/ecs_base.d.ts": {
-        "version": "ba93f7d7eea3e0a23d522c5d1be0108067acebf94761bdfa68dd94da896276ef",
-        "signature": "ba93f7d7eea3e0a23d522c5d1be0108067acebf94761bdfa68dd94da896276ef",
+        "version": "5d428bf087d4b1a7db255abcacd14e27fc5ca3c671ff34ec79cf6766cec9df60",
+        "signature": "5d428bf087d4b1a7db255abcacd14e27fc5ca3c671ff34ec79cf6766cec9df60",
         "affectsGlobalScope": false
       },
       "../../kecs/dist/index.d.ts": {
-        "version": "5b7c711bf34b7a73c0e61a892e2ebc4e6b275afaafca2b9c0f40d1777c52752a",
-        "signature": "5b7c711bf34b7a73c0e61a892e2ebc4e6b275afaafca2b9c0f40d1777c52752a",
+        "version": "5b867f7304dbf1362d94d9a5564cf6cd9ee44aa6b39ce4458f45c26060ea7cc1",
+        "signature": "5b867f7304dbf1362d94d9a5564cf6cd9ee44aa6b39ce4458f45c26060ea7cc1",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/componentschema.ts": {
-        "version": "c8736488b99f6e26deba5f909b22981408f8829bb38f9d8f3ba9ec5fc820176d",
+        "version": "4ffd7da00718e8d23b591f6266bc9512bf632377f2ad12ae182ce2143f0c6cad",
         "signature": "fe7e48d40753fa7b98ff838e3de55558652b65366fcdcb1441ff1fb533d232e4",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/schema.ts": {
-        "version": "8eeef9e4ca59bf7e305d5ea4fbd844d7561969f4eb566f6db4078c90fbfe94e8",
-        "signature": "b296263e5fb1bbdf76b29a49179fdc6b6956a0e67f3b49d1c79cac07c1685e07",
+        "version": "71042c1beb7e3345c107a33e7256c23e4eba07505cfb5ecfc383ac7b1c6dbb8f",
+        "signature": "5ffb13c533c9136e7cbfd802b0dc98cb740d3208e43cb7694cbeb5b7a6650591",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/packagejson.ts": {
-        "version": "b662b3b3d1d9c5eabc3b41e1086a1c024c660834ec0a3efb796093be9dee394e",
+        "version": "9f6f466c4c52a420b97c17ffa6ebd4ee320a4fbec32d1b14dfe2d01fdd6fcfd0",
         "signature": "ca339dfdb7ec7e5730e8afc476b6c1681c61dd6cba922d5a4d7b5cd1f9b9f6d6",
         "affectsGlobalScope": false
       },
       "../src/generator/index.ts": {
-        "version": "4fc882e925903f773b199657c1bae88f9ca3355c76338a31a1cf0528d427711d",
+        "version": "f4dee365c21252d122f7a1e0929dde949d45571b6e3dcbe7827712d8f40aa209",
         "signature": "ef58c6ea6d2b8b5778859042ff76657de2cd1095ee126839067d2e9d00781afe",
         "affectsGlobalScope": false
       },
       "../src/projectinit/types.ts": {
-        "version": "1481c48418b53ce9e7e6cd27ccb0d986e020c2ec8524e7b8c073ae3080969eca",
+        "version": "df626ddab4c31e6f76cdd3de6ceb0b905ad7db7efa5d0c0d2e9728af8e74d67c",
         "signature": "7a4ed2a0293cf9cf731d4b5354287b0b835e2d18a56279d867952a8ec2cafa23",
         "affectsGlobalScope": false
       },
       "../src/projectinit/index.ts": {
-        "version": "798341583f190fc649c15bbb35a0dcbfe38d927f9394b333b5e2ea53611835ff",
+        "version": "c554021c8183df5ce1413db81eec1450a6113b7107ed3c83303e66bdf7bb9c46",
         "signature": "4e70d19079eccac27129bd3666148fe199357bd473ac9e4b4d8f81fc71e42966",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "43161b982f9b640e119f2a2a99e8d26f1a56c2170006bc980446905a53d2f63a",
+        "version": "59ce7687fcd4668c039b0915491c6b2a868fbd7024135fdcec14771ce99e57df",
         "signature": "00316e779bb16e52d58ebe243051bc85fe123e66577a482f57c290a6f2e1a779",
         "affectsGlobalScope": false
       },
       "../src/generator/generators/customecs.ts": {
-        "version": "f5f3823a18fa7b666945df1c0918937df5d2d4401248af5373b24c65d1b4cfaf",
+        "version": "2f3bfd798709843aa516f782b263c15cd9a079ae8258641b6941da9d8f619743",
         "signature": "0acdc461ecbee6c4af9d9b0e786ea8383965d0e999365e2fef781d25cd7140e6",
         "affectsGlobalScope": false
       },
@@ -900,7 +895,8 @@
       ],
       "../../kecs/dist/data/componentmanager.d.ts": [
         "../../kecs/dist/data/component.d.ts",
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/data/entity.d.ts": [
         "../../kecs/dist/data/component.d.ts",
@@ -919,26 +915,22 @@
         "../../kecs/dist/data/entitycollection.d.ts",
         "../../kecs/dist/data/pipeline.d.ts",
         "../../kecs/dist/data/systemcollection.d.ts",
-        "../../kecs/dist/data/types.d.ts",
         "../../kecs/dist/data/utils.d.ts"
       ],
       "../../kecs/dist/data/pipeline.d.ts": [
         "../../kecs/dist/data/entity.d.ts",
         "../../kecs/dist/data/systemcollection.d.ts",
-        "../../kecs/dist/data/types.d.ts",
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/data/systemcollection.d.ts": [
         "../../kecs/dist/data/pipeline.d.ts",
-        "../../kecs/dist/data/types.d.ts",
-        "../../kecs/dist/index.d.ts"
-      ],
-      "../../kecs/dist/data/types.d.ts": [
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/data/utils.d.ts": [
-        "../../kecs/dist/data/types.d.ts",
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/ecs_base.d.ts": [
         "../../kecs/dist/data/componentmanager.d.ts",
@@ -956,7 +948,7 @@
         "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/types.d.ts": [
-        "../../kecs/dist/schemas/types.d.ts"
+        "../../kecs/dist/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1233,7 +1225,8 @@
       ],
       "../../kecs/dist/data/componentmanager.d.ts": [
         "../../kecs/dist/data/component.d.ts",
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/data/entity.d.ts": [
         "../../kecs/dist/data/component.d.ts",
@@ -1252,26 +1245,22 @@
         "../../kecs/dist/data/entitycollection.d.ts",
         "../../kecs/dist/data/pipeline.d.ts",
         "../../kecs/dist/data/systemcollection.d.ts",
-        "../../kecs/dist/data/types.d.ts",
         "../../kecs/dist/data/utils.d.ts"
       ],
       "../../kecs/dist/data/pipeline.d.ts": [
         "../../kecs/dist/data/entity.d.ts",
         "../../kecs/dist/data/systemcollection.d.ts",
-        "../../kecs/dist/data/types.d.ts",
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/data/systemcollection.d.ts": [
         "../../kecs/dist/data/pipeline.d.ts",
-        "../../kecs/dist/data/types.d.ts",
-        "../../kecs/dist/index.d.ts"
-      ],
-      "../../kecs/dist/data/types.d.ts": [
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/data/utils.d.ts": [
-        "../../kecs/dist/data/types.d.ts",
-        "../../kecs/dist/index.d.ts"
+        "../../kecs/dist/index.d.ts",
+        "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/ecs_base.d.ts": [
         "../../kecs/dist/data/componentmanager.d.ts",
@@ -1289,7 +1278,7 @@
         "../../kecs/dist/types.d.ts"
       ],
       "../../kecs/dist/types.d.ts": [
-        "../../kecs/dist/schemas/types.d.ts"
+        "../../kecs/dist/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1401,7 +1390,6 @@
       "../../kecs/dist/data/index.d.ts",
       "../../kecs/dist/data/pipeline.d.ts",
       "../../kecs/dist/data/systemcollection.d.ts",
-      "../../kecs/dist/data/types.d.ts",
       "../../kecs/dist/data/utils.d.ts",
       "../../kecs/dist/ecs_base.d.ts",
       "../../kecs/dist/index.d.ts",

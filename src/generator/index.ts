@@ -51,7 +51,7 @@ async function installPackages(packages: { url: string, name: string }[]) {
 
 async function usesYarn(cwd = process.cwd()) {
   try {
-    const stat = await fs.stat(path.resolve(cwd, 'yarn.lock')) 
+    const stat = await fs.stat(path.resolve(cwd, 'yarn.lock'))
     return stat.isFile();
   } catch(err) {
     return false;
@@ -107,7 +107,7 @@ export default async function (argv: IGeneratorArgs) {
   let outputPath = "";
 
   if ( nodeModulesPath ) {
-    outputPath = path.resolve(path.join(nodeModulesPath, ".kryptonstudio-ecs-client"));
+    outputPath = path.resolve(path.join(nodeModulesPath, "@kryptonstudio/.ecs-client"));
     await fs.mkdir(outputPath, {
       recursive: true
     });
